@@ -1,16 +1,8 @@
-import { useState } from 'react'
-import './App.css'
-
-// Components
-import TicTacToe from './components/TicTacToe.jsx'
+import "./App.css";
+import TicTacToe from "./components/TicTacToe";
 
 function App() {
-
-  return (
-    <>
-     <TicTacToe />
-    </>
-  )
+  return <TicTacToe />;
 }
 
-export default App
+export default App;
